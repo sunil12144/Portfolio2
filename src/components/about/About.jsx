@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM, NavLink } from "react-dom/client";
 import { ArrowRight } from "react-bootstrap-icons";
 import Button from "react-bootstrap/Button";
 
@@ -39,7 +38,7 @@ const About = () => {
         </div>
         <div className="d-flex justify-content-center my-4">
           <img
-            src="https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg"
+            src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783976/portfolio/pexels-photo-462162_msyem2.jpg"
             alt="Vijay Sharma"
             className="img-fluid rounded shadow"
             style={{ maxWidth: "750px" }}

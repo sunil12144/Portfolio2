@@ -24,16 +24,16 @@ const Services = () => {
             </p>
             <br />
             <button type="button" class="btn  bg-dark text-secondary shadow">
-              View Prodcts{" "}
+              View Prodcts
             </button>
             <br /> <br />
             <br />
           </div>
           <img
-            src="https://images.pexels.com/photos/29321658/pexels-photo-29321658/free-photo-of-modern-indoor-staircase-with-neon-lights.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783395/portfolio/free-photo-of-modern-indoor-staircase-with-neon-lights_uez75t.jpg"
             alt="Portrait Photography"
             className="img-fluid rounded"
-            style={{ maxWidth: "750px" }}
+            style={{ maxWidth: "600px" }}
           />
 
           <br />
@@ -138,7 +138,7 @@ const Services = () => {
 
           <div className="col-md-6 order-md-1">
             <img
-              src="https://images.pexels.com/photos/3690005/pexels-photo-3690005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783505/portfolio/pexels-photo-3690005_hmdgkm.webp"
               alt="Family Photography"
               className="img-fluid w-100"
             />
@@ -216,7 +216,7 @@ const Services = () => {
           </div>
           <div className="col-md-6">
             <img
-              src="https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783529/portfolio/pexels-photo-1370704_ofqmmu.jpg"
               alt="Couple Photography"
               className="img-fluid w-100"
             />
@@ -357,8 +357,7 @@ const Services = () => {
                 </details>
                 <details className="border p-3 border-secondary">
                   <summary className="text-light">
-                    How long does it take the edited photos
-                    session?
+                    How long does it take the edited photos session?
                   </summary>
                   <p className="text-secondary">
                     I specialize in [Portrait, Landscape, Event, etc.]

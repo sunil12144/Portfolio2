@@ -5,7 +5,6 @@ import About from './about/About'
 import Portfolio from './portfolio/Portfolio'
 import Footer from './footer/Footer'
 import Services from './services/Services'
-// import About from './about/About'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 const LandingPage = () => {

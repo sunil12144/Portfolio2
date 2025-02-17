@@ -1,20 +1,9 @@
 import React from "react";
 import {ArrowRight } from "react-bootstrap-icons";
 import Button from "react-bootstrap/Button";
-import sample from "../../assets/sample.jpg";
 import Card from "react-bootstrap/Card";
 import './portfolio.css'
-import sample2 from '../../assets/Images/Image-6.png'
 
-import blackboy from "../../assets/Images/Image-7.png";
-import cutegirl from "../../assets/Images/Image-8.png";
-import blueshirt from "../../assets/Images/Image-9.png";
-import holy from "../../assets/Images/Image-10.png";
-import book from "../../assets/Images/Image-11.png";
-import bride from "../../assets/Images/Image-12.png";
-import bag from "../../assets/Images/Image-15.png";
-import glasses from "../../assets/Images/Image-14.png";
-import cutting from "../../assets/Images/Image-13.png";
 
 
 const Portfolio = () => {
@@ -30,7 +19,12 @@ const Portfolio = () => {
           frame. Explore the diverse tapestry of stories I've had the privilege
           to capture and witness the world through my lens.
         </p>
-        <img src={sample2} alt="" id="banner-img" className="" />
+        <img
+          src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783306/portfolio/Image-6_jrovsz.png"
+          alt=""
+          id="banner-img"
+          className=""
+        />
       </div>
       <hr className="text-light" />
       <div className="portraits-section pt-5 pb-5 mt-3" id="exploreSection">
@@ -74,7 +68,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={blackboy}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783302/portfolio/Image-7_shcb3p.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -106,7 +100,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={cutegirl}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783304/portfolio/Image-9_lpy4ts.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -138,7 +132,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={blueshirt}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783303/portfolio/Image-8_qkxpih.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -213,7 +207,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={bride}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783304/portfolio/Image-12_v9awfd.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -245,7 +239,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={book}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783303/portfolio/Image-11_wfu3s5.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -277,7 +271,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={holy}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783313/portfolio/Image-10_s2vars.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -353,7 +347,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={bag}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783307/portfolio/Image-15_qzxpox.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -385,7 +379,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={glasses}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783311/portfolio/Image-14_w47c0d.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -417,7 +411,7 @@ const Portfolio = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={cutting}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783309/portfolio/Image-13_iauxj4.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -524,8 +518,7 @@ const Portfolio = () => {
             </details>
             <details className="border p-3 border-secondary">
               <summary className="text-light">
-                How long does it take the edited photos 
-                session?
+                How long does it take the edited photos session?
               </summary>
               <p className="text-secondary">
                 I specialize in [Portrait, Landscape, Event, etc.] photography,

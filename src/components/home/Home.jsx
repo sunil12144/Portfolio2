@@ -1,10 +1,4 @@
 import React from "react";
-import singer from '../../assets/Images/pop-singer.png'
-import whiteshirt from '../../assets/Images/Image.png'
-import rich from '../../assets/Images/Image-4.png'
-import blackgirl from '../../assets/Images/Image-3.png'
-import image1 from '../../assets/Images/Images container.png'
-import goldplate from '../../assets/Images/Image-5.png'
 import { ArrowUpRight, ArrowRight } from "react-bootstrap-icons";
 import Button from "react-bootstrap/Button";
 import resume from '../../../public/resume-example.pdf'
@@ -51,7 +45,7 @@ const Home = () => {
             <Carousel.Item interval={2500}>
               <img
                 className="d-block w-100 h-100"
-                src={image1}
+                src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783312/portfolio/Images_Container_qo3jsn.png"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -94,7 +88,7 @@ const Home = () => {
           <div className="d-flex flex-wrap justify-content-between m-2">
             <div className="col-12 col-lg-6 col-md-6 h-full text-center mt-4">
               <img
-                src={whiteshirt}
+                src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783315/portfolio/Image_oh6ibd.png"
                 alt=""
                 style={{ height: "90%", width: "80%" }}
               />
@@ -271,7 +265,7 @@ const Home = () => {
               </div>
               <div className="col-12 col-md-6 col-lg-6 h-full p-4">
                 <img
-                  src={singer}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783313/portfolio/Image-2_j82drn.png"
                   alt=""
                   style={{ height: "90%", width: "100%" }}
                 />
@@ -343,7 +337,7 @@ const Home = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={blackgirl}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783302/portfolio/Image-3_ygctge.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -375,7 +369,7 @@ const Home = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={rich}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783310/portfolio/Image-4_yo6pxd.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -407,7 +401,7 @@ const Home = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="shadow p-3 mb-3 mt-3 h-100">
                 <img
-                  src={goldplate}
+                  src="https://res.cloudinary.com/dvtvhonnl/image/upload/v1739783308/portfolio/Image-5_wp8djl.png"
                   className="w-100 rounded"
                   style={{ height: "80%" }}
                 />
@@ -607,7 +601,6 @@ const Home = () => {
                     <span class="fa fa-star checked"></span>&nbsp;
                     <span class="fa fa-star  checked"></span> &nbsp;
                     <span class="fa fa-star  checked"></span> &nbsp;
-                    
                     <Card.Text>
                       Damien has an incredible talent for making every event
                       feel effortless, and the results speak for themselves.
