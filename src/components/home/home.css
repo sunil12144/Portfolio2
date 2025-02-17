@@ -1,0 +1,20 @@
+.top-title-section{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-title{
+    padding: 5px;
+}
+.right-title{
+    padding: 5px;
+}
+
+/* .banner-section{
+    background-image: url("https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGhvdG9ncmFwaHl8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    max-height: 60vh;
+    height: 70vh;
+    width: 100%;
+} */
